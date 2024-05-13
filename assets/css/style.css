@@ -61,13 +61,21 @@ aside {
 
 main {
     grid-area: main;
-    height: 100%;
-    display: flex;
+    height: 82vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+/*    display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 90px;
+    */
 }
 
 .card {
@@ -76,8 +84,8 @@ main {
 }
 
 .card img {
-    width: 270px;
-    height: 270px;
+    width: 170px;
+    height: 150px;
     padding-bottom: 10px;
 }
 
@@ -89,18 +97,19 @@ main {
     background-color: #00d9ff;
     border-radius: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
+    width: 170px;
 }
 
 .btn h4 {
     color: white;
-    padding: 15px;
+    padding: 5px;
 }
 
 footer {
     grid-area: footer;
     background-color: #00d9ff;
-    height: 50px;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
